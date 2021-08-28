@@ -2,6 +2,7 @@ import React from "react";
 import WebcamCapture from "./components/WebcamCapture";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import Preview from "./components/Preview";
 
 function App() {
   return (
