@@ -6,7 +6,7 @@ const firebaseConfig = {
   projectId: "redux-snapchat-clone",
   storageBucket: "redux-snapchat-clone.appspot.com",
   messagingSenderId: "236783826639",
-  appId: "1:236783826639:web:af53a4d1cb2aeeb6c2e9ba",
+  appId: "1:236783826639:web:af53a4d1cb2aeeb6c2e9ba"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
