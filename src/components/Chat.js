@@ -32,7 +32,7 @@ function Chat({ id, profilePic, username, timestamp, imageUrl, read }) {
       <div className="chat__info">
         <h4>{username}</h4>
         <p>
-          Top the view -{" "}
+          {!read && 'Top the view -'}{" "}
           <ReactTimeago date={new Date(timestamp?.toDate()).toUTCString()} />
         </p>
       </div>
