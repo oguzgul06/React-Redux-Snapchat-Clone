@@ -12,7 +12,7 @@
   padding-right: 10px;
   background-color: #059ee0;
   height: 50px;
-  width: 250px;
+  /* width: 250px; */
 }
 
 .chats__search > input {
@@ -24,9 +24,28 @@
   color: white;
 }
 
-.chats__search > input::placeholder{
-    color: white;
-    opacity: 1;
+.chats__search > input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.chats__posts {
+  box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
+  height: 359px;
+  margin-top: -9px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  overflow: scroll;
+}
+
+.chats__posts::-webkit-scrollbar {
+  display: none;
+}
+
+.chats__posts {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .chats__avatar {
