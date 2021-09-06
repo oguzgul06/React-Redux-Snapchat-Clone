@@ -18,6 +18,7 @@ In this project I used;
 - React Redux
 - Material UI
 - React Hooks
+- React Router
 - React Webcam
 - Firebase's Firestore Database
 - Firebase Google Authentication 
